@@ -1,0 +1,130 @@
+body {
+	background: #CACACA url(images/background.png) repeat-x;
+	font-family: "Trebuchet MS", Verdana, serif
+}
+#container {
+	margin: 0 auto;
+	width: 750px
+}
+#header {
+	width: 100%
+}
+#sub_header {
+	text-align: right;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+#main_content {
+	margin: 0 auto;
+	width: 100%;
+	background: #FFFFFF url('images/background_content.gif');
+	background-repeat: repeat-y
+} 
+#main_content_top {
+	height: 30px;
+	background: #FFFFFF url('images/background_top.gif');
+} 
+#main_content_bottom {
+	height: 30px;
+	background: #FFFFFF url('images/background_bottom.gif');
+}
+#footer {
+	text-align: center;
+	font-size: 12px;
+	margin: 10px auto
+}
+.content {
+	float: left;
+	width: 510px;
+	text-align: justify;
+	padding: 0 30px 0 30px;
+	font-size: 12px
+}
+.menu {
+	width: 139px;
+	float: right;
+	padding: 0 20px 0 20px;
+	border-left: #8C8484 1px solid;
+	font-size: 12px
+}
+.menu ul {
+	margin: 0;
+	padding: 10px 0 10px 15px
+}
+.menu il {
+	list-style-type: disc
+}
+#header h1 {
+	margin-bottom: 0px;
+	font-size: 28px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px black;
+}
+.content h2 {
+	margin-top: 0px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #A40008
+}
+.content h3 {
+	margin-top: 0px;
+	font-size: 15px;
+	font-weight: bold;
+}
+#clear {
+	display: block;
+	clear: both;
+	width: 100%;
+	height:1px;
+	overflow:hidden;
+}
+.menu ul {
+	margin: 0;
+	padding: 10px 0 20px 15px
+}
+.menu li {
+	padding-top: 2px;
+	list-style-type: circle
+}
+a {
+    color: rgb(81, 81, 81);
+    text-decoration: none;
+    font-weight:bold;
+}
+a:visited {
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(224, 134, 102);
+    text-decoration: underline;
+}
+.quote {
+	margin: 20px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic
+}
+.paragraph_style {
+    color: rgb(81, 81, 81);
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align:left;
+}
+.paragraph_style_1 {
+    color: rgb(0, 0, 0);
+    font-family: 'HelveticaNeue', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    text-align:justify;
+}
